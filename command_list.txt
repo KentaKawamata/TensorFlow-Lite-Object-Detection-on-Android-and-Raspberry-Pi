@@ -1,0 +1,403 @@
+    1  ls
+    2  cat /etc/debian_version 
+    3  sudo poweroff 
+    4  python --version
+    5  python
+    6  ifconfig
+    7  sudo password pi
+    8  sudo passwd pi
+    9  ls
+   10  mkdir program
+   11  cd program/
+   12  ls
+   13  sudo apt-get purge scratch
+   14  sudo apt-get remove --purge libreoffice*
+   15  sudo apt-get clean
+   16  sudo apt-get autoremove
+   17  sudo apt-get update
+   18  sudo apt-get upgrade
+   19  sudo apt-get install build-essential
+   20  cd
+   21  git clone https://github.com/tensorflow/tensorflow.git
+   22  cd tensorflow/
+   23  ls
+   24  sudo apt-get install python3-dev python3-pip
+   25  sudo apt-get install libatlas-base-dev
+   26  sudo pip3 install -U virtualenv
+   27  pip --version
+   28  pip3 --versin
+   29  pip3 --version
+   30  pip3 install upgrade
+   31  pip3 install upgrade pip3
+   32  sudo pip3 install upgrade pip3
+   33  sudo pip3 list --outdated
+   34  pip3 list
+   35  pip3 list -o
+   36  pip3 install -U pip3
+   37  sudo apt install -y git openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+   38  cd
+   39  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   40  sudo vi ~/.bash_profile
+   41  sudo apt install vim
+   42  sudo vi ~/.bash_profile
+   43  source ~/.bash_profile 
+   44  pyenv --version
+   45  pyenv list
+   46  pyenv version
+   47  pyenv versions
+   48  pyenv global
+   49  pyenv install --list
+   50  pyenv install --list |grep 3.7
+   51  pyenv install 3.7.7
+   52  pyenv global 3.7.7
+   53  python --version
+   54  pip install -U pip
+   55  pip3 install -U pip3
+   56  pip3 version
+   57  pip list
+   58  sudo apt install libatlas-base-dev 
+   59  pip list
+   60  pip3 list
+   61  pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_aarch64.whl
+   62  pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl 
+   63  cd tensorflow/tensorflow/lite/examples/python/
+   64  ls
+   65  python label_image.py 
+   66  vi label_image.py 
+   67  python label_image.py 
+   68  vi label_image.py 
+   69  pip install numpy
+   70  sudo pip install numpy
+   71  sudo pip3 install numpy
+   72  python la
+   73  vi label_image.py 
+   74  pip install pillow
+   75  python label_image.py 
+   76  pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl 
+   77  python label_image.py 
+   78  pip list
+   79  vi label_image.py 
+   80  ls
+   81  vi BUILD 
+   82  pip install argples
+   83  vi label_image.py 
+   84  pip install argpars
+   85  vi label_image.py 
+   86  pip install argparse
+   87  python label_image.py 
+   88  vi label_image.py 
+   89  curl https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/lite/examples/label_image/testdata/grace_hopper.bmp > /tmp/grace_hopper.bmp
+   90  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar xzv -C /tmp
+   91  sudo curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar xzv -C /tmp
+   92  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_1.0_224_frozen.tgz  | tar xzv -C /tmp  mobilenet_v1_1.0_224/labels.txt
+   93  mv /tmp/mobilenet_v1_1.0_224/labels.txt /tmp/
+   94  python3 label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+   95  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+   96  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar xzv -C /tmp
+   97  ls
+   98  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar zxfv -C /tmp
+   99  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar zxfvmp -C /tmp
+  100  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar zxzv -C /tmp
+  101  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar -xfz -C /tmp
+  102  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | sudo tar xzv -C /tmp
+  103  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  104  python
+  105  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  106  sudo apt-get update 
+  107  sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+  108  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  109  pyenv install 3.7.7
+  110  pyenv uninstall 3.7.7
+  111  pyenv install 3.7.7
+  112  python
+  113  source ~/.bash_profile 
+  114  python
+  115  pyenv list
+  116  pyenv global 3.7.7
+  117  pyenv install --list
+  118  pyenv install 3.7.7
+  119  mount | grep /tmp
+  120  pyenv install 3.7.7
+  121  TMPDIR="${PWD}/tmp" pyenv install 3.7.0
+  122  TMPDIR="${PWD}/tmp" pyenv install 3.7.7
+  123  pyenv gloal 3.7.7
+  124  source ~/.bash_profile 
+  125  pyenv gloal 3.7.7
+  126  pyenv global 3.7.7
+  127  python
+  128  pip list
+  129  pip install numpy
+  130  pip install --upgrade pip
+  131  pip list
+  132  pip pillow
+  133  pip install pillow
+  134  python
+  135  history
+  136  pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
+  137  pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
+  138  history
+  139  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  140  vi label_image.py 
+  141  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  142  vi label_image.py 
+  143  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  144  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | sudo tar xzv -C /tmp
+  145  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  146  ls /tmp/
+  147  sudo ls /tmp/
+  148  cd /tmp/
+  149  sudo cd /tmp/
+  150  cd /tmp
+  151  cd
+  152  cd /
+  153  cd tmp/
+  154  cd
+  155  cd tensorflow/tensorflow/lite/examples/python/
+  156  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | sudo tar xzv -C ./
+  157  ls
+  158  sudo ls
+  159  python label_image.py   --model_file ./mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  160  sudo python label_image.py   --model_file ./mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  161  python label_image.py   --model_file ./mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  162  rm mobile*
+  163  sudo rm mobile*
+  164  sudo rm ./.mobile*
+  165  ls
+  166  sudo ls
+  167  vi tmp
+  168  rm tmp
+  169  sudo rm tmp
+  170  su
+  171  sudo passwd root
+  172  su
+  173  python label_image.py   --model_file ./mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  174  python label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  175  python label_image.py --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  176  source ~/.bash_profile 
+  177  sudo source ~/.bash_profile 
+  178  cd ../
+  179  cd python/
+  180  sudo cd python/
+  181  cd ./python/
+  182  ls -al
+  183  chmod 777 python/
+  184  sudo chmod 777 python/
+  185  ls
+  186  cd python/
+  187  ls
+  188  python label_image.py --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  189  ls /tmp/
+  190  chmod 666 /tmp/
+  191  sudo chmod 666 /tmp/
+  192  ls /tmp/
+  193  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | sudo tar xzv -C ./
+  194  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | sudo tar xzv -C /tmp/
+  195  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar xzv -C /tmp/
+  196  sudo chmod 777 /tmp/
+  197  curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz | tar xzv -C /tmp/
+  198  python label_image.py --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label_file /tmp/labels.txt   --image /tmp/grace_hopper.bmp
+  199  sudo poweroff 
+  200  ls
+  201  cd 
+  202  cd Downloads/
+  203  ls
+  204  cd
+  205  cd program/
+  206  ls
+  207  git clone https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi.git
+  208  ls
+  209  cd TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/
+  210  ls
+  211  vi get_pi_requirements.sh 
+  212  chmod 777 get_pi_requirements.sh 
+  213  ls
+  214  ./get_pi_requirements.sh 
+  215  cd ../
+  216  mv TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/ tflite_mobilenet_ssd
+  217  cd tflite_mobilenet_ssd/
+  218  ks
+  219  ls
+  220  ls
+  221  wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz
+  222  tar -xzvf ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03/
+  223  ls
+  224  mv ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03 Sample_TFLite_model
+  225  python TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
+  226  ls Sample_TFLite_model/
+  227  python TFLite_detection_image.py --modeldir=Sample_TFLite_model
+  228  rm -rf Sample_TFLite_model/
+  229  rm ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz 
+  230  wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+  231  unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d Sample_TFLite_model
+  232  python TFLite_detection_image.py --modeldir=Sample_TFLite_model
+  233  pip install opencv-python==3.4.6.27
+  234  pip install wheel
+  235  pip install opencv-python==3.4.6.27
+  236  pip list
+  237  exit
+  238  cd program/tflite_mobilenet_ssd/
+  239  eog test1.jpg 
+  240  ls
+  241  sudo apt-get install eog
+  242  eog test1.jpg 
+  243  python TFLite_detection_image.py --modeldir=Sample_TFLite_model/
+  244  python TFLite_detection_image.py --modeldir=Sample_TFLite_model
+  245  pyhton
+  246  python
+  247  pip list
+  248  vi Raspberry_Pi_Guide.md 
+  249  vi get_pi_requirements.sh 
+  250  pip install opencv-python==3.4.6.27
+  251  vi get_pi_requirements.sh 
+  252  sudo pip install opencv-python==3.4.6.27
+  253  vi get_pi_requirements.sh
+  254  sudo pip install opencv-python==3.4
+  255  sudo pip install opencv-python==3.4.6
+  256  pip list
+  257  pip3 list
+  258  pip list -a
+  259  sudo pip install opencv-python==3.4.6
+  260  sudo pip install opencv-python==3.4.6.27
+  261  sudo apt-get update
+  262  pyenv --list
+  263  sudo apt-get upgrade
+  264  ls
+  265  ]cd
+  266  ls]
+  267  cd
+  268  ls
+  269  cd tensorflow/
+  270  ldf
+  271  ld
+  272  ls
+  273  cd
+  274  cd program/tflite_mobilenet_ssd/
+  275  ls
+  276  pip list
+  277  python
+  278  su 
+  279  ]
+  280  ls
+  281  sudo chmod 700.ssh
+  282  sudo chmod 700 .ssh
+  283  cd
+  284  sudo chmod 700 .ssh
+  285  sudo chmod 700 ~/.ssh
+  286  ip a
+  287  vi /usr/share/doc/adduser/copyright
+  288  sudo reboot
+  289  pip list
+  290  ]vi ~/.bash_profile 
+  291  vi ~/.bash_profile 
+  292  source ~/.bash_profile 
+  293  python
+  294  pip list
+  295  exit
+  296  pip list
+  297  pyenv versions]
+  298  pyenv versions
+  299  python
+  300  vi ~/.bash_pro
+  301  vi ~/.bash_profile 
+  302  source ~/.bashrc 
+  303  python
+  304  ]
+  305  pip list
+  306  exit
+  307  pip listr
+  308  pip list
+  309  cd program/tflite_mobilenet_ssd/
+  310  ls
+  311  python TFLite_detection_image.py --modeldir=Sample_TFLite_model
+  312  kill -9 %1
+  313  python TFLite_detection_image.py --modeldir=Sample_TFLite_model
+  314  kill -9 %1
+  315  python TFLite_detection_image.py --modeldir=Sample_TFLite_model --image=mol0.jpg
+  316  kill -9 %1
+  317  python TFLite_detection_image.py --modeldir=Sample_TFLite_model --image=mol1.jpg 
+  318  kill -9 %1
+  319  python TFLite_detection_image.py --modeldir=Sample_TFLite_model --image=mol1.jpg 
+  320  kill -9 %1
+  321  ps -a
+  322  kill -9 %1
+  323  kill -9 2112
+  324  kill -9 2158
+  325  kill -9 2212
+  326  ls
+  327  cd Sample_TFLite_model/
+  328  ls
+  329  vi labelmap.txt 
+  330  vi detect.tflite 
+  331  history
+  332  wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz
+  333  tar -xzvf ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03/
+  334  mv ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03 convert_test
+  335  ls convert_test/
+  336  vi convert_test/tflite_graph.pb
+  337  wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2019_03_29.tar.gz
+  338  wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+  339  tar -xzvf ssd_mobilenet_v2_coco_2018_03_29.tar.gz ssd_mobilenet_v2_coco_2018_03_29/
+  340  vi ssd_mobilenet_v2_coco_2018_03_29/pipeline.config 
+  341  vi ssd_mobilenet_v2_coco_2018_03_29/model.ckpt.index 
+  342  rm convert_test/*
+  343  ls
+  344  tflite_convert --saved_model_dir=./ssd_mobilenet_v2_coco_2018_03_29 --output_file=./convert_test/test.tflite
+  345  tar -xzvf ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03.tar.gz
+  346  vi ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03/tflite_graph.pbtxt 
+  347  vi ssd_mobilenet_v2_quantized_300x300_coco_2019_01_03/model.ckpt.index 
+  348  ls
+  349  history
+  350  gedit command_list_pi.txt
+  351  apt-get install -y gedit
+  352  sudo apt-get install -y gedit
+  353  ls
+  354  gedit command_list_pi.txt
+  355  rm -rf convert_test/
+  356  rm *.gz
+  357  ls
+  358  rm -rf ssd_mobilenet_v2_*
+  359  ls
+  360  cp -r /media/pi/B85D-8A82/tflite_test_pack/ ./../
+  361  cd ../
+  362  ls
+  363  python TFLite_detection_image.py --modeldir=Sample_TFLite_model --image=tflite_test_pack/
+  364  cd tflite_test_pack/
+  365  vi labelmap.txt
+  366  cd ../
+  367  python TFLite_detection_image.py --modeldir=tflite_test_pack --image=tflite_test_pack/test_images/image-1.jpg 
+  368  cd tflite_test_pack/
+  369  ls
+  370  cd tflite/
+  371  ls
+  372  mv test.tflite ./../
+  373  cd ../
+  374  ls
+  375  rm -rf tflite/
+  376  ls
+  377  cd ../
+  378  ls
+  379  vi TFLite_detection_image.py 
+  380  python TFLite_detection_image.py --modeldir=tflite_test_pack --image=tflite_test_pack/test_images/image-1.jpg 
+  381  python TFLite_detection_image.py --modeldir=tflite_test_pack --image=tflite_test_pack/test_images/image-2.jpg 
+  382  ls
+  383  ls Sample_TFLite_model/
+  384  ls
+  385  ls Sample_TFLite_model/
+  386  zip Sample_TFLite_model
+  387  tar -zcvf Sample_TFLite_model.tar.gz Sample_TFLite_model
+  388  ls
+  389  git tag Sample_Model
+  390  git push origin master Sample_Model 
+  391  git push origin Sample_Model 
+  392  rm -rf Sample_TFLite_model
+  393  mv Sample_TFLite_model.tar.gz /media/pi/B85D-8A82/
+  394  ls
+  395  tar -zcvf ssd_mobilenet_v2_test tflite_test_pack
+  396  ls
+  397  rm ssd_mobilenet_v2_test
+  398  tar -zcvf ssd_mobilenet_v2_test.tar.gz tflite_test_pack
+  399  ls
+  400  mv ssd_mobilenet_v2_test.tar.gz /media/pi/B85D-8A82/
+  401  cd ../
+  402  history
+
